@@ -1,0 +1,116 @@
+
+.ul1{
+   
+    
+    color: var(--dark--color);
+    
+   margin-left: 160px;
+    margin-top: 20px;
+}
+
+
+.ul2 .nav-link {
+    text-decoration: none;
+    color: white !important;
+    font-size: 23px !important;
+    font-weight: bold !important;
+    
+    
+    margin-left: 25px;
+    background-color: transparent !important;
+
+}
+.ul2 .nav-link:hover{
+   background-color:  coral !important;
+   color: var(--dark--color) !important ;
+}
+.navbar1{
+    background-color: var(--secondarycolor);
+}
+
+
+.arrival .container .row .card-body .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    border: 1px solid var(--dark--color);
+    background-color: var(--lightcolor);
+}
+.arrival .container .row .card-body .btn:hover{
+    background-color: var(--dark--color);
+    color: white;
+}
+@media (max-width:1400px){
+   
+    .card1{
+       position: absolute;
+       left: 10px;
+    }
+}
+
+
+
+@media (max-width:767px){
+    .navbar-toggler{
+        margin-right: 0px !important;
+    }
+    .navbar .ul1{
+        margin-left: 0px !important;
+        display:block  !important;
+        margin-top: -3px;
+    }
+   
+    .arrival .container .row .card-body .btn{
+        margin-top: 6px;
+        padding-left: 20px;
+    padding-right: 20px;
+        
+    }
+    .customer{
+        margin-top: 50px !important;
+        width: 100%;
+    }
+}
+
+@media (max-width:450px){
+    .navbar-toggler{
+        margin-right: 0px !important;
+    }
+    .navbar .ul1{
+        margin-left: 0px !important;
+        display:block  !important;
+        margin-top: -3px;
+    }
+  
+    .stars1 {
+        width: 100% !important;
+    }
+       
+    .arrival .container .row .card-body .btn{
+        margin-top: 6px;
+        padding-left: 10px;
+    padding-right: 10px;
+        
+    }
+    .customer{
+        margin-top: 40px !important;
+        width: 100%;
+    }
+    
+}
+@media (max-width:379px){
+    .arrival .container .row .card-body .btn{
+      padding: 8px;
+    }
+}
+@media (max-width:360px){
+    .arrival .container .row .card-body .btn{
+      padding: 5px;
+    }
+}
+
+
+
+
